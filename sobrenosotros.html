@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<!-- Código del Icono -->
+<!-- Coloca Icono Aqui -->
+<link rel="shortcut icon" href="icono/plantilla-logo-sitio-web_00001.ico" />
+<title>Natalia García Shoes</title>
+<!-- Custom Theme files -->
+<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- //js -->	
+<!-- start-smoth-scrolling-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smoth-scrolling-->
+<!--pop-up-->
+<script src="js/menu_jquery.js"></script>
+<!--//pop-up-->
+</head>
+<body>
+	<!--header-->
+	<div class="header">
+		<div class="container">
+			<div class="header-left">
+				<ul> 
+					<li><a href="account.html">Regístrate</a></li>
+					<li class="login" >
+						<div id="loginContainer"><a href="#" id="loginButton"><span>Sesión</span></a>
+						    <div id="loginBox">                
+						        <form id="loginForm">
+									<fieldset id="body">
+										<fieldset>
+											<label for="email">Direccion de correo electronico</label>
+											<input type="text" name="email" id="email">
+										</fieldset>
+										<fieldset>
+											<label for="password">Contraseña</label>
+											<input type="password" name="password" id="password">
+										</fieldset>
+										<input type="submit" id="login" value="Entrar">
+										<label for="checkbox"><input type="checkbox" id="checkbox"> <i>Recuerdame</i></label>
+									</fieldset>
+									<span><a href="#">Olvidaste tu contraseña?</a></span>
+								</form>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="logo">
+				<a href="index.html"> <img src="images/logo.png" alt=""/></a>
+			</div>
+			<div class="top-nav">
+				<span class="menu"> <img src="images/menu.png" alt=""/> </span>
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<li><a class="active"  href="sobrenosotros.html">Sobre Nosotros</a></li>					
+					<li><a href="gallery.html">Galeria</a></li>
+					<li><a href="news.html">Novedades</a></li>
+					<li><a class="active" href="http://nataliagarciashoes.blogspot.com.co/" target="_blank">Blog</a></li>
+					<li><a href="contact.html">Contactanos</a></li>
+				</ul>
+				<!-- script-for-menu -->
+				<script>					
+					$("span.menu").click(function(){
+						$(".top-nav ul").slideToggle("slow" , function(){
+						});
+					});
+				</script>
+				<!-- script-for-menu -->
+			</div>
+			<div class="search-box">
+				<div id="sb-search" class="sb-search">
+					<form>
+						<input class="sb-search-input" placeholder="Buscar..." type="search" name="search" id="search">
+						<input class="sb-search-submit" type="submit" value="">
+						<span class="sb-icon-search"> </span>
+					</form>
+				</div>
+			</div>
+			<div class="clearfix"> </div>	
+			<!-- search-scripts -->
+			<script src="js/classie.js"></script>
+			<script src="js/uisearch.js"></script>
+				<script>
+					new UISearch( document.getElementById( 'sb-search' ) );
+				</script>
+			<!-- //search-scripts -->
+		</div>
+	</div>	
+	<!--//header-->
+	<!--banner-->
+	<div class="banner1 about-bnr">
+	</div>	
+	<!--//banner-->
+	<!--about-->
+	<div class="about"> 
+		<div class="container">
+			<h1 class="hdng">Sobre Nosotros</h1>
+			<div class="about-text">
+				<div class="col-md-6 about-text-left">
+					<img src="images/img5.jpg" class="img-responsive" alt=""/>
+				</div>
+				<div class="col-md-6 about-text-right">
+					<h4>Natalia García Shoes</h4>
+					<p>Empezamos en el mercado de la Fabricacion de calzado el 1 de Agosto del año 2011, nuestra fabrica se encuentra ubicada en la ciudad de Barranquilla (Atlantico), en la <b>Carrera 6 # 38B-30 barrio La Magdalena</b>, y tenemos dos sucursales; una ubicada en la <b>Calle 26 # 17B - 43 barrio Las Nieves</b> y la otra ubicada en la <b>Carrera 8 # 33A - 63 Las Palmas</b>.</p>
+					<ul>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a> Legalmente Constituidos</a></li>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a> NIT 1062875000-1</a></li>
+						<li><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><a> Moda Y Estilo</a></li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="about-slid"> 
+			<div class="container">
+				<div class="about-slid-info"> 
+					<h2></h2>
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--//about-->
+	<!--about-team-->
+	<div class="about-team">		
+		<div class="container">
+			<h3 class="title">Equipo Sena</h3>
+			<div class="row team-row">
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="equipo/img6.png" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">Guillermo Naranjo</a></h4>
+							<p>Creador de la pagina Web, y Sistema de informacion.</p>						
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="equipo/img7.png" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">Omar meza</a></h4>
+							<p>Creador de Macros - Excel y brinda apoyo en el Sistema de Informacion.</p>						
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="equipo/img8.png" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">Edgardo Vega</a></h4>
+							<p>Lider de grupo, brinda apoyo en redaccion de documentos, y Sistema de Informacion.</p>						
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="equipo/img9.png" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">Josue Lubo</a></h4>
+							<p>Creador y diseñador del Blog.</p>						
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<div class="caption">
+							<h4><a href="#"></a></h4>
+							<p></p>						
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<div class="caption">
+							<h4><a href="#"></a></h4>
+							<p></p>						
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="equipo/img11.png" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">Claudia Ramirez</a></h4>
+							<p>Creadora de toda la documentacion y redaccion.</p>						
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 team-grids">
+					<div class="thumbnail team-thmnl">
+						<img src="equipo/img10.png" class="img-responsive zoom-img" alt="...">
+						<div class="caption">
+							<h4><a href="#">Yessica De La Puente</a></h4>
+							<p>Apoya la redaccion y documentacion.</p>						
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//about-team-->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<div class="footer-left">
+				<p> © 2016 Natalia García | Todos los derechos reservados. </a></p>
+			</div>
+			<div class="social-icons">
+				<ul>
+					<li><a href="https://www.facebook.com/ngmodayestilo1" target="_blank" class="fb"></a></li>
+					<li><a href="https://twitter.com/nataliagarciash" target="_blank"></a></li>
+					<li><a href="https://www.instagram.com/nataliagarciashoes/" target="_blank" class="gg"></a></li>
+					<li><a href="http://nataliagarciashoes.co/wiki/doku.php" target="_blank" class="pn"></a></li>					
+				</ul>	
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			*/
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>	
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
