@@ -1,10 +1,10 @@
 create database stngh;
 use stngh;
 create table cliente(
-cedula BIGINT,
 nombre VARCHAR(30),
-apellidos VARCHAR(30),
-direccion VARCHAR(40),
-telefono int, 
+apellido VARCHAR(30),
 correo VARCHAR(30),
-PRIMARY KEY (cedula));
+usuario VARCHAR(30),
+contraseña INT,
+repitacontraseña INT,
+PRIMARY KEY (nombre));
