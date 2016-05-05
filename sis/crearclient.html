@@ -11,8 +11,8 @@
     <meta name="author" content="">
 		<title>Stngsh Client</title>
 <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <link rel="stylesheet" href="css/bootstrap.css">
     <!-- Custom CSS -->
     <link href="css/small-business.css" rel="stylesheet">
 
@@ -70,10 +70,11 @@
             <!-- Form Name -->
 <legend>Registro Stngsh</legend>
                 <!-- Text input-->
+                <form action="guardar.php" method="post"> 
 <div class="form-group">
-  <label class="col-md-8 control-label" for="Nom"></label>  
+  <label class="col-md-8 control-label" for="nom"></label>  
   <div class="col-md-8">
-  <input id="Nom" name="Nom" type="text" placeholder="Nombre" class="form-control input-md" required="">
+  <input id="nom" name="nom" type="text" placeholder="Nombre" class="form-control input-md" required="">
     
   </div>
 </div>
@@ -137,7 +138,7 @@
 <div class="form-group">
   <label class="col-md-8 control-label" for="singlebutton"></label>
   <div class="col-md-8">
-    <a href="guardar.php" class="btn btn-primary"><span class="glyphicon glyphicon-log-in"></span>  Registrate</a>
+      <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-log-in"></span> Guardar</button>
   </div>
 </div>
 

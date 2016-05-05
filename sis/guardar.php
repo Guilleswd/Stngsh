@@ -7,7 +7,7 @@
 	$contr=$_POST["contr"];
 	$repcontr=$_POST["repcontr"];
 	$db=mysql_connect("localhost","root","");
-	mysql_select_db("stngh",$db);
+	mysql_select_db("bdngsh",$db);
 	mysql_query("insert into cliente values('$nom','$ape','$user','$corr','$contr','$repcontr')");
 	
 ?>
