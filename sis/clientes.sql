@@ -5,6 +5,6 @@ nombre VARCHAR(30),
 apellido VARCHAR(30),
 usuario VARCHAR(30),
 correo VARCHAR(30),
-contraseña INT,
-repitacontraseña INT)
+contraseña VARCHAR,
+repitacontraseña VARCHAR)
 SELECT*FROM clientes;
