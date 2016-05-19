@@ -118,46 +118,42 @@
 				<h1>Nuevo Usuario? <span> Crear una nueva cuenta. </span></h1>
 				<!-- Form -->
 				<div class="registration_form">
-					<form id="registration_form">
+					<form action="guardar.php" method="post">
 						<div>
 							<label>
-								<input placeholder="Nombre" type="text" tabindex="1">
+								<input name="nom" placeholder="Nombre" type="text" tabindex="1">
 							</label>
 						</div>
 						<div>
 							<label>
-								<input placeholder="Apellido" type="text" tabindex="2">
+								<input name="ape" placeholder="Apellido" type="text" tabindex="2">
 							</label>
 						</div>
 						<div>
 							<label>
-								<input placeholder="Dirección de correo electrónico" type="email" tabindex="3">
+								<input name="user" placeholder="Usuario" type="text" tabindex="3">
 							</label>
 						</div>
 						<div>
 							<label>
-								<input placeholder="Celular" type="text" tabindex="3">
+								<input name="corr" placeholder="Correo Electronico" type="text" tabindex="3">
 							</label>
 						</div>					
 							<div class="sky_form1">
-								<ul>
-									<li><label class="radio left"><input type="radio" name="radio" checked=""><i></i>Masculino</label></li>
-									<li><label class="radio"><input type="radio" name="radio"><i></i>Femenino</label></li>
-									<div class="clearfix"> </div>
-								</ul>
+								
 							</div>					
 						<div>
 							<label>
-								<input placeholder="Contraseña" type="password" tabindex="4">
+								<input name="contr" placeholder="Contraseña" type="password" tabindex="4">
 							</label>
 						</div>						
 						<div>
 							<label>
-								<input placeholder="Repite Contraseña" type="password" tabindex="4">
+								<input name="repcontr" placeholder="Repite Contraseña" type="password" tabindex="4">
 							</label>
 						</div>	
 						<div>
-							<input type="submit" value="Registrar" id="register-submit">
+							<input type="submit" value="Registrar">
 						</div>
 						<div class="sky-form">
 							<label class="checkbox"><input type="checkbox" name="checkbox" ><i>Acepto terminos y condiciones &nbsp;</i> </label>
